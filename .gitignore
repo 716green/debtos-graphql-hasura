@@ -1,0 +1,9 @@
+.env
+
+/.eslintcache
+/node_modules
+/coverage
+/npmDist
+/denoDist
+/npm
+/deno

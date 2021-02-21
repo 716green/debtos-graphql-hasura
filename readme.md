@@ -73,7 +73,12 @@ volumes:
 ## 3 & 4 - Start Docker Using Powershell
 
 ```bash
-docker-compose up -d
+# start docker
+sudo service docker start
+docker-compose up
+# If the first one doesn't work - try these
+# docker-compose up -d
+# sudo /etc/init.d/docker start
 ```
 
 ## End Container
